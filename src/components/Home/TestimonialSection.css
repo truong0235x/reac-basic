@@ -57,4 +57,7 @@
         flex-direction: column;
         gap: 40px;
     }
+    .testimonial-section__wrapper__item {
+        width: 100%;
+    }
 }

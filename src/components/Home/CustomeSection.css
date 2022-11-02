@@ -47,11 +47,16 @@
         height: auto;
         margin-left: unset;
     }
+    .custom-section__text{
+        width: 100%;
+    }
     .custom-section__text h1 {
         width: 100%;
         margin: 0 0 25px;
         font-size: 32px;
         line-height: 32px;
+        min-height: unset;
+        height: unset;
     }
     .custom-section__text p {
         font-size: 14px;

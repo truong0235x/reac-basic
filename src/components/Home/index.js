@@ -1,11 +1,21 @@
-import DefaultLayout from '../layouts/DefualtLayout';
-import Container from './Containers';
+import HeroSection from './HeroSection';
+import CompaniesSection from './CompaniesSection';
+import BrandingSection from './BrandingSection';
+import CustomeSection from './CustomeSection';
+import TestimonialSection from './TestimonialSection';
+import ContacSection from './ContacSection';
+import './index.css'
 
 function Home() {
   return (
-    <DefaultLayout>
-      <Container />
-    </DefaultLayout>
+    <div className="content">
+      <HeroSection />
+      <CompaniesSection />
+      <BrandingSection />
+      <CustomeSection />
+      <TestimonialSection />
+      <ContacSection />
+    </div>
   )
 }
 
